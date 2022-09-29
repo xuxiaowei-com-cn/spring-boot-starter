@@ -1,0 +1,12 @@
+[submodule "spring-boot-starter-wechat-miniprogram"]
+	path = spring-boot-starter-wechat-miniprogram
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+	branch = main
+[submodule "spring-boot-starter-wechat-offiaccount"]
+	path = spring-boot-starter-wechat-offiaccount
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+	branch = main
+[submodule "spring-boot-starter-wechat-oplatform"]
+	path = spring-boot-starter-wechat-oplatform
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+	branch = main
