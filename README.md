@@ -6,6 +6,7 @@
 2. [支持 OAuth 2.1 JWT 授权的微信公众平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount)
 3. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
 4. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
+5. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
 
 ## 子模块 submodule
 
@@ -14,6 +15,7 @@ git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git spring-boot-starter-wechat-miniprogram
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git spring-boot-starter-wechat-offiaccount
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git spring-boot-starter-wechat-oplatform
+git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git spring-boot-starter-idempotent
 ```
 
 ## 克隆 clone

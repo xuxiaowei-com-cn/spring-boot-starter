@@ -14,3 +14,7 @@
 	path = spring-boot-starter-gitee
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git
 	branch = main
+[submodule "spring-boot-starter-idempotent"]
+	path = spring-boot-starter-idempotent
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+	branch = main
