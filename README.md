@@ -1,5 +1,11 @@
 # spring-boot-starter-wechat
 
+## 支持 OAuth 2.1 JWT 授权的微信开发组件（git 父模块）
+
+1. [支持 OAuth 2.1 JWT 授权的微信小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram)
+2. [支持 OAuth 2.1 JWT 授权的微信公众平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount)
+3. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
+
 ## 子模块 submodule
 
 ```shell
