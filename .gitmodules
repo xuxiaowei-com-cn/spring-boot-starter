@@ -10,3 +10,7 @@
 	path = spring-boot-starter-wechat-oplatform
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
 	branch = main
+[submodule "spring-boot-starter-gitee"]
+	path = spring-boot-starter-gitee
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+	branch = main

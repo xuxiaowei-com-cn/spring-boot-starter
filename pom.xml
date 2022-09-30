@@ -15,6 +15,7 @@
     </properties>
 
     <modules>
+        <module>spring-boot-starter-gitee</module>
         <module>spring-boot-starter-wechat-miniprogram</module>
         <module>spring-boot-starter-wechat-offiaccount</module>
         <module>spring-boot-starter-wechat-oplatform</module>
