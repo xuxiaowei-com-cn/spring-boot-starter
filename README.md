@@ -8,6 +8,13 @@
 4. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
 5. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
 
+## 分支
+
+- main
+    - 支持 JDK 8、11
+- next
+    - 支持 JDK 17
+
 ## 子模块 submodule
 
 ```shell
