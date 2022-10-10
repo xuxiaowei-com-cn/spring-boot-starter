@@ -47,3 +47,121 @@ git submodule update
 git submodule update
 git submodule update --remote
 ```
+
+## 批量推送到远端仓库
+
+<details>
+<summary>点击展开</summary>
+cd spring-boot-starter-gitee
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-idempotent
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-qq-connect
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-wechat-miniprogram
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-wechat-offiaccount
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-wechat-oplatform
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+git.exe fetch -v --progress "origin"
+
+git.exe push --all --progress "origin"
+
+</details>
