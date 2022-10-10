@@ -22,3 +22,7 @@
 	path = spring-boot-starter-qq-connect
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
 	branch = next
+[submodule "spring-boot-starter-qq-miniprogram"]
+	path = spring-boot-starter-qq-miniprogram
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+	branch = next

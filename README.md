@@ -7,7 +7,8 @@
 3. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
 4. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
 5. [支持 OAuth 2.1 JWT 授权的QQ开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect)
-6. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
+6. [支持 OAuth 2.1 JWT 授权的QQ小程序平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram)
+7. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
 
 ## 分支
 
@@ -21,6 +22,7 @@
 ```shell
 git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git spring-boot-starter-gitee
 git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git spring-boot-starter-qq-connect
+git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git spring-boot-starter-qq-miniprogram
 git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git spring-boot-starter-wechat-miniprogram
 git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git spring-boot-starter-wechat-offiaccount
 git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git spring-boot-starter-wechat-oplatform
@@ -89,6 +91,24 @@ git.exe push --all --progress "gitlink"
 cd ..
 
 cd spring-boot-starter-qq-connect
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-qq-miniprogram
 
 git.exe fetch -v --progress "gitee"
 
