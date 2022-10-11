@@ -2,13 +2,14 @@
 
 ## Spring Boot 开发组件（git 父模块）
 
-1. [支持 OAuth 2.1 JWT 授权的微信小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram)
-2. [支持 OAuth 2.1 JWT 授权的微信公众平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount)
-3. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
-4. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
-5. [支持 OAuth 2.1 JWT 授权的QQ开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect)
-6. [支持 OAuth 2.1 JWT 授权的QQ小程序平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram)
-7. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
+1. [支持 OAuth 2.1 JWT 授权的钉钉dingtalk开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk)
+2. [支持 OAuth 2.1 JWT 授权的微信小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram)
+3. [支持 OAuth 2.1 JWT 授权的微信公众平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount)
+4. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
+5. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
+6. [支持 OAuth 2.1 JWT 授权的QQ开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect)
+7. [支持 OAuth 2.1 JWT 授权的QQ小程序平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram)
+8. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
 
 ## 分支
 
@@ -20,6 +21,7 @@
 ## 子模块 submodule
 
 ```shell
+git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git spring-boot-starter-dingtalk
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git spring-boot-starter-gitee
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git spring-boot-starter-qq-connect
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git spring-boot-starter-qq-miniprogram

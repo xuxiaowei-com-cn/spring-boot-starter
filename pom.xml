@@ -21,6 +21,7 @@
     </properties>
 
     <modules>
+        <module>spring-boot-starter-dingtalk</module>
         <module>spring-boot-starter-gitee</module>
         <module>spring-boot-starter-idempotent</module>
         <module>spring-boot-starter-qq-connect</module>
