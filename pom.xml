@@ -29,6 +29,7 @@
         <module>spring-boot-starter-wechat-miniprogram</module>
         <module>spring-boot-starter-wechat-offiaccount</module>
         <module>spring-boot-starter-wechat-oplatform</module>
+        <module>spring-boot-starter-wechat-work</module>
     </modules>
 
     <build>

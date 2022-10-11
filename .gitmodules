@@ -34,3 +34,7 @@
 	path = spring-boot-starter-gitlab
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
 	branch = next
+[submodule "spring-boot-starter-wechat-work"]
+	path = spring-boot-starter-wechat-work
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+	branch = next
