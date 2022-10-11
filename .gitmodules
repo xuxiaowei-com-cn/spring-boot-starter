@@ -30,3 +30,7 @@
 	path = spring-boot-starter-dingtalk
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
 	branch = next
+[submodule "spring-boot-starter-gitlab"]
+	path = spring-boot-starter-gitlab
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+	branch = next
