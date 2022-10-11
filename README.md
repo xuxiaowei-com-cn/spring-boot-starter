@@ -56,6 +56,24 @@ git submodule update --remote
 
 <details>
 <summary>点击展开</summary>
+cd spring-boot-starter-dingtalk
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
 cd spring-boot-starter-gitee
 
 git.exe fetch -v --progress "gitee"
