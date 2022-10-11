@@ -26,3 +26,7 @@
 	path = spring-boot-starter-qq-miniprogram
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
 	branch = next
+[submodule "spring-boot-starter-dingtalk"]
+	path = spring-boot-starter-dingtalk
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+	branch = next
