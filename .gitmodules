@@ -42,3 +42,7 @@
 	path = spring-boot-starter-weibo
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git
 	branch = main
+[submodule "spring-boot-starter-github"]
+	path = spring-boot-starter-github
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github.git
+	branch = main

@@ -26,6 +26,7 @@
 ```shell
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git spring-boot-starter-dingtalk
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git spring-boot-starter-gitee
+git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github.git spring-boot-starter-github
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git spring-boot-starter-gitlab
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git spring-boot-starter-qq-connect
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git spring-boot-starter-qq-miniprogram
@@ -81,6 +82,24 @@ git.exe push --all --progress "gitlink"
 cd ..
 
 cd spring-boot-starter-gitee
+
+git.exe fetch -v --progress "gitee"
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-github
 
 git.exe fetch -v --progress "gitee"
 
