@@ -38,3 +38,7 @@
 	path = spring-boot-starter-wechat-work
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
 	branch = main
+[submodule "spring-boot-starter-weibo"]
+	path = spring-boot-starter-weibo
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+	branch = main
