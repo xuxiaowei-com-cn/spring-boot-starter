@@ -42,6 +42,28 @@
 
 ## 子模块 submodule
 
+### 为何使用Git子模块？
+
+1. 2021年2月26日 发布第一个 spring-boot-starter-idempotent 版本，使用独立的Git仓库
+2. 2022年7月14日 发布第一个 spring-boot-starter-wechat-miniprogram 版本，使用独立的Git仓库
+3. 后来创建了几个其他与 spring-boot-starter-wechat-miniprogram 相同的项目类型，用于拓展 OAuth2.1 的授权，并且也使用了独立仓库。
+4. 为了统一管理、将所学应用于实践，所以创建了这个Git模块的父项目。
+
+### 为何不将拓展 OAuth2.1 的授权登录合并成一个项目，打成一个包，提取公共部分减少冗余代码？
+
+1. 拓展 OAuth2.1 的授权的项目，起初只是为了拓展 OAuth2.1 的登录而拓展，没想到会做这么多种
+2. 考虑到后期可能会将除了登录意外的其他接口一并做了，放在一个项目中过于臃肿
+3. 虽然各厂商（微信、QQ、微博、码云、GitLab等）大都使用的都是 OAuth 2.0 的协议，但差别较大，比如：
+    1. 返回数据的`Content-Type`应该为`application/json`，而微信使用了`text/html`
+    2. 网站类型与小程序类型授权方式与流程天然不同，无法轻易整合
+    3. QQ扫码登录返回数据格式虽然可以设置为`JSON`，但是当参数有问题时，返回数据就不是`JSON`了
+    4. 微信返回`access_token`时携带用户唯一标识`openid`、`unionid`（绑定了开放平台后返回`unionid`
+       ）；QQ使用三个接口完了获取`access_token`、`openid`、`unionid`；码云返回`access_token`
+       时无用户唯一标识，需要使用`access_token`来获取用户唯一标识
+    5. 微信等应用的客户唯一标识使用的是`appid`，码云等应用使用的是`client_id`
+4. 每种授权使用独立的`jar`包，使用者上手方便，学习成本低，容易排查问题（宁愿开发者自己麻烦，不想提高使用者的成本）
+5. 拓展 OAuth2.1 的授权的项目维护虽然复杂了，但是像这种第三方授权流程，一旦做完了，万年不变（除了更新一下 OAuth 2.1 的依赖而已）
+
 ```shell
 git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git spring-boot-starter-dingtalk
 git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git spring-boot-starter-gitee
