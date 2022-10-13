@@ -1,6 +1,24 @@
-# spring-boot-starter
+<div align="center" style="text-align: center;">
+    <h1>spring-boot-starter</h1>
+    <h3>Spring Boot 开发组件（git 父模块）</h3>
+    <a target="_blank" href="https://github.com/996icu/996.ICU/blob/master/LICENSE">
+        <img alt="License-Anti" src="https://img.shields.io/badge/License-Anti 996-blue.svg">
+    </a>
+    <a target="_blank" href="https://996.icu/#/zh_CN">
+        <img alt="Link-996" src="https://img.shields.io/badge/Link-996.icu-red.svg">
+    </a>
+    <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=ZieC6s1WB4njfVbrDHYgoNS8YpT26VtF&jump_from=webapi">
+        <img alt="QQ群" src="https://img.shields.io/badge/QQ群-696503132-blue.svg"/>
+    </a>
+</div>
 
-## Spring Boot 开发组件（git 父模块）
+<p></p>
+
+<div align="center" style="text-align: center;">
+    <a target="_blank" href="https://work.weixin.qq.com/gm/75cfc47d6a341047e4b6aca7389bdfa8">
+        <img alt="企业微信群" src="static/企业微信群.jpg" height="100"/>
+    </a>
+</div>
 
 1. [支持 OAuth 2.1 JWT 授权的钉钉dingtalk开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk)
 2. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
