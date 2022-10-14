@@ -21,6 +21,8 @@
     </properties>
 
     <modules>
+        <module>spring-boot-starter-alipay-miniprogram</module>
+        <module>spring-boot-starter-alipay-oplatform</module>
         <module>spring-boot-starter-dingtalk</module>
         <module>spring-boot-starter-gitee</module>
         <module>spring-boot-starter-github</module>
