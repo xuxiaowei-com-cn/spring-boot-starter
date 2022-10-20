@@ -63,8 +63,11 @@
        ）；QQ使用三个接口完了获取`access_token`、`openid`、`unionid`；码云返回`access_token`
        时无用户唯一标识，需要使用`access_token`来获取用户唯一标识
     5. 微信等应用的客户唯一标识使用的是`appid`，码云等应用使用的是`client_id`
-4. 每种授权使用独立的`jar`包，使用者上手方便，学习成本低，容易排查问题（宁愿开发者自己麻烦，不想提高使用者的成本）
-5. 拓展 OAuth2.1 的授权的项目维护虽然复杂了，但是像这种第三方授权流程，一旦做完了，万年不变（除了更新一下 OAuth 2.1 的依赖而已）
+    6. 有些厂商获取`access_token`时需要`redirect_uri`，有些厂商不需要
+4. 考虑到使用者可能会使用 [GitLab](https://gitlab.com)、[极狐](https://jihulab.com) 或自建 `GitLab`，针对于 `GitLab`
+   授权，需要自定义域名
+5. 每种授权使用独立的`jar`包，使用者上手方便，学习成本低，容易排查问题（宁愿开发者自己麻烦，不想提高使用者的成本）
+6. 拓展 OAuth2.1 的授权的项目维护虽然复杂了，但是像这种第三方授权流程，一旦做完了，万年不变（除了更新一下 OAuth 2.1 的依赖而已）
 
 ```shell
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git spring-boot-starter-alipay-miniprogram
