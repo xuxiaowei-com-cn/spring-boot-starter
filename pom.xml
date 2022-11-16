@@ -9,6 +9,8 @@
 
     <name>spring-boot-starter</name>
     <description>Spring Boot 开发组件（git 父模块）</description>
+    <url>https://gitee.com/xuxiaowei-com-cn/spring-boot-starter</url>
+    <inceptionYear>2022</inceptionYear>
 
     <properties>
         <java.version>17</java.version>
@@ -35,6 +37,38 @@
         <module>spring-boot-starter-wechat-work</module>
         <module>spring-boot-starter-weibo</module>
     </modules>
+
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+        <license>
+            <name>996.ICU</name>
+            <url>https://github.com/996icu/996.ICU/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+            <comments>The name 996.ICU refers to "Work by '996', sick in ICU", an ironic saying among Chinese
+                developers, which means that by following the "996" work schedule, you are risking yourself getting into
+                the ICU (Intensive Care Unit).
+            </comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>徐晓伟工作室</name>
+        <url>http://xuxiaowei.com.cn</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>徐晓伟</name>
+            <email>xuxiaowei@xuxiaowei.com.cn</email>
+            <organization>徐晓伟工作室</organization>
+            <organizationUrl>http://xuxiaowei.com.cn</organizationUrl>
+        </developer>
+    </developers>
 
     <build>
         <plugins>
