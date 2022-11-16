@@ -7,8 +7,8 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>spring-boot-starter-wechat</name>
-    <description>支持 OAuth 2.1 JWT 授权的微信开发组件</description>
+    <name>spring-boot-starter</name>
+    <description>Spring Boot 开发组件（git 父模块）</description>
 
     <properties>
         <java.version>1.8</java.version>
