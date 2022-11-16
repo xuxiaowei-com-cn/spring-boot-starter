@@ -9,6 +9,8 @@
 
     <name>spring-boot-starter</name>
     <description>Spring Boot 开发组件（git 父模块）</description>
+    <url>https://gitee.com/xuxiaowei-com-cn/spring-boot-starter</url>
+    <inceptionYear>2022</inceptionYear>
 
     <properties>
         <java.version>1.8</java.version>
@@ -17,6 +19,9 @@
         <!-- https://github.com/spring-io/spring-javaformat/ -->
         <!-- 高版本支持 JDK 8：https://github.com/spring-io/spring-javaformat/#java-8-support -->
         <spring-javaformat-maven-plugin.version>0.0.34</spring-javaformat-maven-plugin.version>
+
+        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/license-maven-plugin -->
+        <license-maven-plugin.version>2.0.0</license-maven-plugin.version>
 
     </properties>
 
@@ -36,6 +41,38 @@
         <module>spring-boot-starter-wechat-work</module>
         <module>spring-boot-starter-weibo</module>
     </modules>
+
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+        <license>
+            <name>996.ICU</name>
+            <url>https://github.com/996icu/996.ICU/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+            <comments>The name 996.ICU refers to "Work by '996', sick in ICU", an ironic saying among Chinese
+                developers, which means that by following the "996" work schedule, you are risking yourself getting into
+                the ICU (Intensive Care Unit).
+            </comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>徐晓伟工作室</name>
+        <url>http://xuxiaowei.com.cn</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>徐晓伟</name>
+            <email>xuxiaowei@xuxiaowei.com.cn</email>
+            <organization>徐晓伟工作室</organization>
+            <organizationUrl>http://xuxiaowei.com.cn</organizationUrl>
+        </developer>
+    </developers>
 
     <build>
         <plugins>
@@ -57,6 +94,19 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+            <!-- 列举开源协议：license:license-list -->
+            <!-- 添加开源协议：mvn license:update-file-header -->
+            <!-- http://www.mojohaus.org/license-maven-plugin/index.html -->
+            <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/license-maven-plugin -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <version>${license-maven-plugin.version}</version>
+                <configuration>
+                    <licenseName>apache_v2</licenseName>
+                </configuration>
             </plugin>
         </plugins>
     </build>
