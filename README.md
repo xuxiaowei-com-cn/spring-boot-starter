@@ -110,7 +110,8 @@ git submodule update --remote
 <summary>点击展开</summary>
 cd spring-boot-starter-alipay-miniprogram
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -128,7 +129,8 @@ cd ..
 
 cd spring-boot-starter-alipay-oplatform
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -146,7 +148,8 @@ cd ..
 
 cd spring-boot-starter-dingtalk
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -164,7 +167,8 @@ cd ..
 
 cd spring-boot-starter-gitee
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -182,7 +186,8 @@ cd ..
 
 cd spring-boot-starter-github
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -200,7 +205,8 @@ cd ..
 
 cd spring-boot-starter-gitlab
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -218,7 +224,8 @@ cd ..
 
 cd spring-boot-starter-idempotent
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -236,7 +243,8 @@ cd ..
 
 cd spring-boot-starter-qq-connect
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -254,7 +262,8 @@ cd ..
 
 cd spring-boot-starter-qq-miniprogram
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -272,7 +281,8 @@ cd ..
 
 cd spring-boot-starter-wechat-miniprogram
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -290,7 +300,8 @@ cd ..
 
 cd spring-boot-starter-wechat-offiaccount
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -308,7 +319,8 @@ cd ..
 
 cd spring-boot-starter-wechat-oplatform
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -326,7 +338,8 @@ cd ..
 
 cd spring-boot-starter-wechat-work
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
@@ -344,7 +357,8 @@ cd ..
 
 cd spring-boot-starter-weibo
 
-git.exe fetch -v --progress "gitee"
+git fetch "gitee" next:next
+git fetch "gitee" main:main
 
 git.exe push --all --progress "gitee"
 
