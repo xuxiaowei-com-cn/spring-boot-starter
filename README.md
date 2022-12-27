@@ -111,6 +111,10 @@ git submodule update --remote
 
 <details>
 <summary>点击展开</summary>
+
+git fetch "origin" next:next
+git fetch "origin" main:main
+
 cd spring-boot-starter-alipay-miniprogram
 
 git fetch "gitee" next:next
