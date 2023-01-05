@@ -46,11 +46,15 @@
 	path = spring-boot-starter-github
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github.git
 	branch = next
+[submodule "spring-boot-starter-alipay-oplatform"]
+	path = spring-boot-starter-alipay-oplatform
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+	branch = next
 [submodule "spring-boot-starter-alipay-miniprogram"]
 	path = spring-boot-starter-alipay-miniprogram
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
 	branch = next
-[submodule "spring-boot-starter-alipay-oplatform"]
-	path = spring-boot-starter-alipay-oplatform
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+[submodule "spring-boot-starter-redis"]
+	path = spring-boot-starter-redis
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis.git
 	branch = next
