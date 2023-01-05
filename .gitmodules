@@ -54,3 +54,7 @@
 	path = spring-boot-starter-alipay-miniprogram
 	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
 	branch = main
+[submodule "spring-boot-starter-redis"]
+	path = spring-boot-starter-redis
+	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis.git
+	branch = main

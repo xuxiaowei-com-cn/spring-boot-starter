@@ -34,6 +34,7 @@
 12. [支持 OAuth 2.1 JWT 授权的企业微信平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work)
 13. [支持 OAuth 2.1 JWT 授权的微博weibo平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo)
 14. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
+15. [Redis 序列化/反序列化 组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis)
 
 ## 分支
 
@@ -84,6 +85,7 @@ git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git spring-boot-starter-wechat-work
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git spring-boot-starter-weibo
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git spring-boot-starter-idempotent
+git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis.git spring-boot-starter-redis
 ```
 
 ## 克隆 clone
@@ -268,6 +270,25 @@ git.exe push --all --progress "gitlink"
 cd ..
 
 cd spring-boot-starter-qq-miniprogram
+
+git fetch "gitee" next:next
+git fetch "gitee" main:main
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-redis
 
 git fetch "gitee" next:next
 git fetch "gitee" main:main

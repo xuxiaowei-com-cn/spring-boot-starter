@@ -40,6 +40,7 @@
         <module>spring-boot-starter-wechat-oplatform</module>
         <module>spring-boot-starter-wechat-work</module>
         <module>spring-boot-starter-weibo</module>
+        <module>spring-boot-starter-redis</module>
     </modules>
 
     <licenses>
