@@ -32,6 +32,7 @@
         <module>spring-boot-starter-github</module>
         <module>spring-boot-starter-gitlab</module>
         <module>spring-boot-starter-idempotent</module>
+        <module>spring-boot-starter-oauth2</module>
         <module>spring-boot-starter-qq-connect</module>
         <module>spring-boot-starter-qq-miniprogram</module>
         <module>spring-boot-starter-wechat-miniprogram</module>
