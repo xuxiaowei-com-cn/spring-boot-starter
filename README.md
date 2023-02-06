@@ -33,8 +33,9 @@
 11. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
 12. [支持 OAuth 2.1 JWT 授权的企业微信平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work)
 13. [支持 OAuth 2.1 JWT 授权的微博weibo平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo)
-14. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
-15. [Redis 序列化/反序列化 组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis)
+14. [将以上 OAuth 2.1 组件打包成一个 jar 包](spring-boot-starter-oauth2)
+15. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
+16. [Redis 序列化/反序列化 组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis)
 
 ## 分支
 
@@ -52,7 +53,7 @@
 3. 后来创建了几个其他与 spring-boot-starter-wechat-miniprogram 相同的项目类型，用于拓展 OAuth2.1 的授权，并且也使用了独立仓库。
 4. 为了统一管理、将所学应用于实践，所以创建了这个Git模块的父项目。
 
-### 为何不将拓展 OAuth2.1 的授权登录合并成一个项目，打成一个包，提取公共部分减少冗余代码？
+### 为何不将拓展 OAuth2.1 的授权登录合并成一个项目，提取公共部分减少冗余代码？
 
 1. 拓展 OAuth2.1 的授权的项目，起初只是为了拓展 OAuth2.1 的登录而拓展，没想到会做这么多种
 2. 考虑到后期可能会将除了登录意外的其他接口一并做了，放在一个项目中过于臃肿
@@ -69,6 +70,7 @@
    授权，需要自定义域名
 5. 每种授权使用独立的`jar`包，使用者上手方便，学习成本低，容易排查问题（宁愿开发者自己麻烦，不想提高使用者的成本）
 6. 拓展 OAuth2.1 的授权的项目维护虽然复杂了，但是像这种第三方授权流程，一旦做完了，万年不变（除了更新一下 OAuth 2.1 的依赖而已）
+7. 考虑新增组件 [spring-boot-starter-oauth2](spring-boot-starter-oauth2)，将 OAuth 2.1 组件打包成一个 jar 包，方便引用
 
 ```shell
 git submodule add -b main https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git spring-boot-starter-alipay-miniprogram
