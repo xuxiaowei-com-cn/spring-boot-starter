@@ -408,4 +408,16 @@ git.exe fetch -v --progress "origin"
 
 git.exe push --all --progress "origin"
 
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
 </details>
