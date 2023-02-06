@@ -1,7 +1,25 @@
 stages:
+  - main-pre
   - main
 
+main-pre:
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  stage: main-pre
+  image: python:latest
+  script:
+    - pwd
+    - cd spring-boot-starter-oauth2
+    - pwd
+    - python merge.py
+  artifacts:
+    paths:
+      - spring-boot-starter-oauth2/src/main/java
+
 main:
+  needs:
+    - job: main-pre
+      artifacts: true
   stage: main
   image: maven:3.6.3-jdk-8
   variables:
@@ -11,7 +29,7 @@ main:
     paths:
       - .m2/repository
   script:
-    - GPG_FILE=/builds/xuxiaowei-com-cn/spring-boot-starter-oauth2.tmp/xuxiaowei_0x97A36125_SECRET
+    - GPG_FILE=/builds/xuxiaowei-com-cn/spring-boot-starter.tmp/xuxiaowei_0x97A36125_SECRET
     - echo $GPG_FILE
     - gpg --import $GPG_FILE
     - SETTINGS_FILE=/usr/share/maven/conf/settings.xml
@@ -19,6 +37,9 @@ main:
     - sed -i "s#</servers>#<server><id>ossrh</id><username>$ossrh_user</username><password>$ossrh_pass</password></server>&#" $SETTINGS_FILE
     - sed -i "s#</mirrors>#<mirror><id>mirror</id><mirrorOf>central,jcenter,!rdc-releases,!rdc-snapshots</mirrorOf><name>mirror</name><url>https://maven.aliyun.com/nexus/content/groups/public</url></mirror>&#" $SETTINGS_FILE
     - git --version
+    - pwd
+    - cd spring-boot-starter-oauth2
+    - pwd
     - NAME=`mvn help:evaluate -Dexpression=project.name -q -DforceStdout`
     - VERSION=`mvn help:evaluate -Dexpression=project.version -q -DforceStdout`
     - PACKAGING=`mvn help:evaluate -Dexpression=project.packaging -q -DforceStdout`
@@ -32,7 +53,7 @@ main:
     - mvn clean -U package source:jar javadoc:jar deploy -Pgpg -DskipTests && echo 发布完成
   artifacts:
     paths:
-      - target/spring-boot-starter-oauth2-*
+      - spring-boot-starter-oauth2/target/spring-boot-starter-oauth2-*
   rules:
     # 仅用于发布非标签版本（一般为快照版）
     - if: $CI_COMMIT_TAG == null
