@@ -73,21 +73,21 @@
 7. 考虑新增组件 [spring-boot-starter-oauth2](spring-boot-starter-oauth2)，将 OAuth 2.1 组件打包成一个 jar 包，方便引用
 
 ```shell
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git spring-boot-starter-alipay-miniprogram
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git spring-boot-starter-alipay-oplatform
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git spring-boot-starter-dingtalk
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git spring-boot-starter-gitee
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github.git spring-boot-starter-github
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git spring-boot-starter-gitlab
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git spring-boot-starter-qq-connect
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git spring-boot-starter-qq-miniprogram
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git spring-boot-starter-wechat-miniprogram
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git spring-boot-starter-wechat-offiaccount
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git spring-boot-starter-wechat-oplatform
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git spring-boot-starter-wechat-work
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git spring-boot-starter-weibo
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git spring-boot-starter-idempotent
-git submodule add -b next https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis.git spring-boot-starter-redis
+git submodule add -b next ../spring-boot-starter-alipay-miniprogram.git spring-boot-starter-alipay-miniprogram
+git submodule add -b next ../spring-boot-starter-alipay-oplatform.git spring-boot-starter-alipay-oplatform
+git submodule add -b next ../spring-boot-starter-dingtalk.git spring-boot-starter-dingtalk
+git submodule add -b next ../spring-boot-starter-gitee.git spring-boot-starter-gitee
+git submodule add -b next ../spring-boot-starter-github.git spring-boot-starter-github
+git submodule add -b next ../spring-boot-starter-gitlab.git spring-boot-starter-gitlab
+git submodule add -b next ../spring-boot-starter-qq-connect.git spring-boot-starter-qq-connect
+git submodule add -b next ../spring-boot-starter-qq-miniprogram.git spring-boot-starter-qq-miniprogram
+git submodule add -b next ../spring-boot-starter-wechat-miniprogram.git spring-boot-starter-wechat-miniprogram
+git submodule add -b next ../spring-boot-starter-wechat-offiaccount.git spring-boot-starter-wechat-offiaccount
+git submodule add -b next ../spring-boot-starter-wechat-oplatform.git spring-boot-starter-wechat-oplatform
+git submodule add -b next ../spring-boot-starter-wechat-work.git spring-boot-starter-wechat-work
+git submodule add -b next ../spring-boot-starter-weibo.git spring-boot-starter-weibo
+git submodule add -b next ../spring-boot-starter-idempotent.git spring-boot-starter-idempotent
+git submodule add -b next ../spring-boot-starter-redis.git spring-boot-starter-redis
 ```
 
 ## 克隆 clone
