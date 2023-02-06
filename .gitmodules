@@ -1,60 +1,60 @@
 [submodule "spring-boot-starter-wechat-miniprogram"]
 	path = spring-boot-starter-wechat-miniprogram
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+	url = ../spring-boot-starter-wechat-miniprogram.git
 	branch = main
 [submodule "spring-boot-starter-wechat-offiaccount"]
 	path = spring-boot-starter-wechat-offiaccount
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+	url = ../spring-boot-starter-wechat-offiaccount.git
 	branch = main
 [submodule "spring-boot-starter-wechat-oplatform"]
 	path = spring-boot-starter-wechat-oplatform
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+	url = ../spring-boot-starter-wechat-oplatform.git
 	branch = main
 [submodule "spring-boot-starter-gitee"]
 	path = spring-boot-starter-gitee
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+	url = ../spring-boot-starter-gitee.git
 	branch = main
 [submodule "spring-boot-starter-idempotent"]
 	path = spring-boot-starter-idempotent
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+	url = ../spring-boot-starter-idempotent.git
 	branch = main
 [submodule "spring-boot-starter-qq-connect"]
 	path = spring-boot-starter-qq-connect
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
+	url = ../spring-boot-starter-qq-connect.git
 	branch = main
 [submodule "spring-boot-starter-qq-miniprogram"]
 	path = spring-boot-starter-qq-miniprogram
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+	url = ../spring-boot-starter-qq-miniprogram.git
 	branch = main
 [submodule "spring-boot-starter-dingtalk"]
 	path = spring-boot-starter-dingtalk
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+	url = ../spring-boot-starter-dingtalk.git
 	branch = main
 [submodule "spring-boot-starter-gitlab"]
 	path = spring-boot-starter-gitlab
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+	url = ../spring-boot-starter-gitlab.git
 	branch = main
 [submodule "spring-boot-starter-wechat-work"]
 	path = spring-boot-starter-wechat-work
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+	url = ../spring-boot-starter-wechat-work.git
 	branch = main
 [submodule "spring-boot-starter-weibo"]
 	path = spring-boot-starter-weibo
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+	url = ../spring-boot-starter-weibo.git
 	branch = main
 [submodule "spring-boot-starter-github"]
 	path = spring-boot-starter-github
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github.git
+	url = ../spring-boot-starter-github.git
 	branch = main
 [submodule "spring-boot-starter-alipay-oplatform"]
 	path = spring-boot-starter-alipay-oplatform
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+	url = ../spring-boot-starter-alipay-oplatform.git
 	branch = main
 [submodule "spring-boot-starter-alipay-miniprogram"]
 	path = spring-boot-starter-alipay-miniprogram
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
+	url = ../spring-boot-starter-alipay-miniprogram.git
 	branch = main
 [submodule "spring-boot-starter-redis"]
 	path = spring-boot-starter-redis
-	url = https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis.git
+	url = ../spring-boot-starter-redis.git
 	branch = main
