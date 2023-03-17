@@ -17,7 +17,7 @@
 
         <!-- https://mvnrepository.com/artifact/io.spring.javaformat/spring-javaformat-maven-plugin -->
         <!-- https://github.com/spring-io/spring-javaformat/ -->
-        <spring-javaformat-maven-plugin.version>0.0.36</spring-javaformat-maven-plugin.version>
+        <spring-javaformat-maven-plugin.version>0.0.38</spring-javaformat-maven-plugin.version>
 
         <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/license-maven-plugin -->
         <license-maven-plugin.version>2.0.0</license-maven-plugin.version>
