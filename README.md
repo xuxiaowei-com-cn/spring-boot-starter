@@ -37,6 +37,8 @@
 15. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
 16. [Redis 序列化/反序列化 组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis)
 
+## [OAuth 2.1 组件 使用文档](https://www.yuque.com/xuxiaowei-com-cn/xuxiaowei-cloud/third-party-login)
+
 ## 分支
 
 - main
