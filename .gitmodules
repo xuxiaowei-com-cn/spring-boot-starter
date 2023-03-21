@@ -58,3 +58,7 @@
 	path = spring-boot-starter-redis
 	url = ../spring-boot-starter-redis.git
 	branch = next
+[submodule "spring-boot-starter-feishu-webpage"]
+	path = spring-boot-starter-feishu-webpage
+	url = ../spring-boot-starter-feishu-webpage.git
+	branch = next
