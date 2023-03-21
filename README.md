@@ -331,15 +331,6 @@ git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
-git fetch "gitee" next:next
-git fetch "gitee" main:main
-git.exe push --all --progress "gitee"
-git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
-git.exe push --all --progress "github"
-git.exe push --all --progress "gitcode"
-git.exe push --all --progress "gitlink"
-cd ..
 cd spring-boot-starter-qq-connect
 git fetch "gitee" next:next
 git fetch "gitee" main:main
