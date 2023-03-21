@@ -120,346 +120,314 @@ git submodule update --remote
 <details>
 <summary>点击展开</summary>
 git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter.git
-
 git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter.git
-
 git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter.git
-
 git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter.git
-
 git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter.git
-
 git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter.git
+cd spring-boot-starter-alipay-miniprogram
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git
+cd ..
+cd spring-boot-starter-alipay-oplatform
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git
+cd ..
+cd spring-boot-starter-dingtalk
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-dingtalk.git
+cd ..
+cd spring-boot-starter-feishu-webpage
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage.git
+cd ..
+cd spring-boot-starter-gitee
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-gitee.git
+cd ..
+cd spring-boot-starter-github
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-github.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-github.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-github.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-github.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-github.git
+cd ..
+cd spring-boot-starter-gitlab
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-gitlab.git
+cd ..
+cd spring-boot-starter-qq-connect
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-qq-connect.git
+cd ..
+cd spring-boot-starter-qq-miniprogram
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram.git
+cd ..
+cd spring-boot-starter-wechat-miniprogram
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram.git
+cd ..
+cd spring-boot-starter-wechat-offiaccount
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount.git
+cd ..
+cd spring-boot-starter-wechat-oplatform
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform.git
+cd ..
+cd spring-boot-starter-wechat-work
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-wechat-work.git
+cd ..
+cd spring-boot-starter-weibo
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-weibo.git
+cd ..
+cd spring-boot-starter-idempotent
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-idempotent.git
+cd ..
+cd spring-boot-starter-redis
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter-redis.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter-redis.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-redis.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-redis.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-redis.git
+cd ..
 </details>
 
 ## 批量推送到远端仓库
 
 <details>
 <summary>点击展开</summary>
-
 git fetch "origin" next:next
 git fetch "origin" main:main
-
 cd spring-boot-starter-alipay-miniprogram
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-alipay-oplatform
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-dingtalk
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-feishu-webpage
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-gitee
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-github
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-gitlab
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-qq-connect
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-qq-miniprogram
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-wechat-miniprogram
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-wechat-offiaccount
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-wechat-oplatform
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-wechat-work
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-weibo
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-idempotent
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd spring-boot-starter-redis
-
 cd ..
-
 git.exe fetch -v --progress "origin"
-
 git.exe push --all --progress "origin"
-
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 </details>
