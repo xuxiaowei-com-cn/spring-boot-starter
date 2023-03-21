@@ -4,6 +4,7 @@ import shutil
 path_list = ['spring-boot-starter-alipay-miniprogram',
              'spring-boot-starter-alipay-oplatform',
              'spring-boot-starter-dingtalk',
+             'spring-boot-starter-feishu-webpage',
              'spring-boot-starter-gitee',
              'spring-boot-starter-github',
              'spring-boot-starter-gitlab',

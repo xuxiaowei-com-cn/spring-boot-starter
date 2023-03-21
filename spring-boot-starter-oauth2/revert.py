@@ -6,6 +6,7 @@ source_abspath = os.path.abspath(os.path.join(os.getcwd(), "../spring-boot-start
 path_list = [('AlipayMiniProgram', 'spring-boot-starter-alipay-miniprogram'),
              ('AlipayOplatformWebsite', 'spring-boot-starter-alipay-oplatform'),
              ('Dingtalk', 'spring-boot-starter-dingtalk'),
+             ('FeishuWebpage', 'spring-boot-starter-feishu-webpage'),
              ('Gitee', 'spring-boot-starter-gitee'),
              ('GitHub', 'spring-boot-starter-github'),
              ('GitLab', 'spring-boot-starter-gitlab'),
