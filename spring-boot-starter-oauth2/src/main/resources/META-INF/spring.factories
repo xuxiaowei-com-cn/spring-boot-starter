@@ -9,6 +9,10 @@ org.springframework.security.oauth2.server.authorization.http.DingtalkAuthorizeH
 org.springframework.security.oauth2.server.authorization.http.DingtalkCodeHttpFilter,\
 org.springframework.security.oauth2.server.authorization.config.annotation.web.configuration.OAuth2DingtalkConfiguration,\
 org.springframework.security.oauth2.server.authorization.properties.DingtalkProperties,\
+org.springframework.security.oauth2.server.authorization.config.annotation.web.configuration.OAuth2FeiShuWebPageConfiguration,\
+org.springframework.security.oauth2.server.authorization.http.FeiShuWebPageAuthorizeHttpFilter,\
+org.springframework.security.oauth2.server.authorization.http.FeiShuWebPageCodeHttpFilter,\
+org.springframework.security.oauth2.server.authorization.properties.FeiShuWebPageProperties,\
 org.springframework.security.oauth2.server.authorization.config.annotation.web.configuration.OAuth2GiteeConfiguration,\
 org.springframework.security.oauth2.server.authorization.http.GiteeAuthorizeHttpFilter,\
 org.springframework.security.oauth2.server.authorization.http.GiteeCodeHttpFilter,\
