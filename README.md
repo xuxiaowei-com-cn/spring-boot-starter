@@ -23,19 +23,20 @@
 1. [支持 OAuth 2.1 JWT 授权的支付宝小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git)
 2. [支持 OAuth 2.1 JWT 授权的支付宝开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git)
 3. [支持 OAuth 2.1 JWT 授权的钉钉dingtalk开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk)
-4. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
-5. [支持 OAuth 2.1 JWT 授权的github开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github)
-6. [支持 OAuth 2.1 JWT 授权的gitlab开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab)
-7. [支持 OAuth 2.1 JWT 授权的QQ开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect)
-8. [支持 OAuth 2.1 JWT 授权的QQ小程序平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram)
-9. [支持 OAuth 2.1 JWT 授权的微信小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram)
-10. [支持 OAuth 2.1 JWT 授权的微信公众平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount)
-11. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
-12. [支持 OAuth 2.1 JWT 授权的企业微信平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work)
-13. [支持 OAuth 2.1 JWT 授权的微博weibo平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo)
-14. [将以上 OAuth 2.1 组件打包成一个 jar 包](spring-boot-starter-oauth2)
-15. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
-16. [Redis 序列化/反序列化 组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis)
+4. [支持 OAuth 2.1 JWT 授权的飞书平台网页应用开发组件](https://github.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage)
+5. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
+6. [支持 OAuth 2.1 JWT 授权的github开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github)
+7. [支持 OAuth 2.1 JWT 授权的gitlab开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab)
+8. [支持 OAuth 2.1 JWT 授权的QQ开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-connect)
+9. [支持 OAuth 2.1 JWT 授权的QQ小程序平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-qq-miniprogram)
+10. [支持 OAuth 2.1 JWT 授权的微信小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-miniprogram)
+11. [支持 OAuth 2.1 JWT 授权的微信公众平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-offiaccount)
+12. [支持 OAuth 2.1 JWT 授权的微信开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-oplatform)
+13. [支持 OAuth 2.1 JWT 授权的企业微信平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-wechat-work)
+14. [支持 OAuth 2.1 JWT 授权的微博weibo平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-weibo)
+15. [将以上 OAuth 2.1 组件打包成一个 jar 包](spring-boot-starter-oauth2)
+16. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
+17. [Redis 序列化/反序列化 组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis)
 
 ## [OAuth 2.1 组件 使用文档](https://www.yuque.com/xuxiaowei-com-cn/xuxiaowei-cloud/third-party-login)
 
@@ -78,6 +79,7 @@
 git submodule add -b main ../spring-boot-starter-alipay-miniprogram.git spring-boot-starter-alipay-miniprogram
 git submodule add -b main ../spring-boot-starter-alipay-oplatform.git spring-boot-starter-alipay-oplatform
 git submodule add -b main ../spring-boot-starter-dingtalk.git spring-boot-starter-dingtalk
+git submodule add -b main ../spring-boot-starter-feishu-webpage.git spring-boot-starter-feishu-webpage
 git submodule add -b main ../spring-boot-starter-gitee.git spring-boot-starter-gitee
 git submodule add -b main ../spring-boot-starter-github.git spring-boot-starter-github
 git submodule add -b main ../spring-boot-starter-gitlab.git spring-boot-starter-gitlab
@@ -195,6 +197,25 @@ git.exe push --all --progress "gitlink"
 
 cd ..
 
+cd spring-boot-starter-feishu-webpage
+
+git fetch "gitee" next:next
+git fetch "gitee" main:main
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
 cd spring-boot-starter-gitee
 
 git fetch "gitee" next:next
@@ -252,8 +273,6 @@ git.exe push --all --progress "gitlink"
 
 cd ..
 
-cd spring-boot-starter-idempotent
-
 git fetch "gitee" next:next
 git fetch "gitee" main:main
 
@@ -291,25 +310,6 @@ git.exe push --all --progress "gitlink"
 cd ..
 
 cd spring-boot-starter-qq-miniprogram
-
-git fetch "gitee" next:next
-git fetch "gitee" main:main
-
-git.exe push --all --progress "gitee"
-
-git.exe push --all --progress "gitlab"
-
-git.exe push --all --progress "jihulab"
-
-git.exe push --all --progress "github"
-
-git.exe push --all --progress "gitcode"
-
-git.exe push --all --progress "gitlink"
-
-cd ..
-
-cd spring-boot-starter-redis
 
 git fetch "gitee" next:next
 git fetch "gitee" main:main
@@ -420,6 +420,29 @@ git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 
 git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-idempotent
+
+git fetch "gitee" next:next
+git fetch "gitee" main:main
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
+cd spring-boot-starter-redis
 
 cd ..
 
