@@ -23,7 +23,7 @@
 1. [支持 OAuth 2.1 JWT 授权的支付宝小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git)
 2. [支持 OAuth 2.1 JWT 授权的支付宝开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git)
 3. [支持 OAuth 2.1 JWT 授权的钉钉dingtalk开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk)
-4. [支持 OAuth 2.1 JWT 授权的飞书平台网页应用开发组件](https://github.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage)
+4. [支持 OAuth 2.1 JWT 授权的飞书平台网页应用开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage)
 5. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
 6. [支持 OAuth 2.1 JWT 授权的github开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github)
 7. [支持 OAuth 2.1 JWT 授权的gitlab开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab)
