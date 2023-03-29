@@ -23,7 +23,7 @@
 1. [支持 OAuth 2.1 JWT 授权的支付宝小程序开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-miniprogram.git)
 2. [支持 OAuth 2.1 JWT 授权的支付宝开放平台开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-alipay-oplatform.git)
 3. [支持 OAuth 2.1 JWT 授权的钉钉dingtalk开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-dingtalk)
-4. [支持 OAuth 2.1 JWT 授权的飞书平台网页应用开发组件](https://github.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage)
+4. [支持 OAuth 2.1 JWT 授权的飞书平台网页应用开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-feishu-webpage)
 5. [支持 OAuth 2.1 JWT 授权的码云gitee开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitee)
 6. [支持 OAuth 2.1 JWT 授权的github开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-github)
 7. [支持 OAuth 2.1 JWT 授权的gitlab开发组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-gitlab)
@@ -37,6 +37,7 @@
 15. [将以上 OAuth 2.1 组件打包成一个 jar 包](spring-boot-starter-oauth2)
 16. [一个基于 Spring Boot Redis 的幂等组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-idempotent)
 17. [Redis 序列化/反序列化 组件](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter-redis)
+18. [Spring Authorization Server OAuth 2.1 基于 Redis 的实现开发组件](https://gitee.com/xuxiaowei-com-cn/spring-security-oauth2-authorization-server-redis)
 
 ## [OAuth 2.1 组件 使用文档](https://www.yuque.com/xuxiaowei-com-cn/xuxiaowei-cloud/third-party-login)
 
@@ -92,6 +93,7 @@ git submodule add -b next ../spring-boot-starter-wechat-work.git spring-boot-sta
 git submodule add -b next ../spring-boot-starter-weibo.git spring-boot-starter-weibo
 git submodule add -b next ../spring-boot-starter-idempotent.git spring-boot-starter-idempotent
 git submodule add -b next ../spring-boot-starter-redis.git spring-boot-starter-redis
+git submodule add -b next ../spring-security-oauth2-authorization-server-redis.git spring-security-oauth2-authorization-server-redis
 ```
 
 ## 克隆 clone
@@ -253,6 +255,14 @@ git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter-re
 git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter-redis.git
 git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter-redis.git
 cd ..
+cd spring-security-oauth2-authorization-server-redis
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-security-oauth2-authorization-server-redis.git
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-security-oauth2-authorization-server-redis.git
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-security-oauth2-authorization-server-redis.git
+git remote add github https://github.com/xuxiaowei-com-cn/spring-security-oauth2-authorization-server-redis.git
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-security-oauth2-authorization-server-redis.git
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-security-oauth2-authorization-server-redis.git
+cd ..
 </details>
 
 ## 批量推送到远端仓库
@@ -412,6 +422,24 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-redis
+git.exe fetch -v --progress "origin"
+git.exe push --all --progress "origin"
+git.exe push --all --progress "gitee"
+git.exe push --all --progress "gitlab"
+git.exe push --all --progress "jihulab"
+git.exe push --all --progress "github"
+git.exe push --all --progress "gitcode"
+git.exe push --all --progress "gitlink"
+cd ..
+cd spring-security-oauth2-authorization-server-redis
+git.exe fetch -v --progress "origin"
+git.exe push --all --progress "origin"
+git.exe push --all --progress "gitee"
+git.exe push --all --progress "gitlab"
+git.exe push --all --progress "jihulab"
+git.exe push --all --progress "github"
+git.exe push --all --progress "gitcode"
+git.exe push --all --progress "gitlink"
 cd ..
 git.exe fetch -v --progress "origin"
 git.exe push --all --progress "origin"

@@ -62,3 +62,7 @@
 	path = spring-boot-starter-feishu-webpage
 	url = ../spring-boot-starter-feishu-webpage.git
 	branch = next
+[submodule "spring-security-oauth2-authorization-server-redis"]
+	path = spring-security-oauth2-authorization-server-redis
+	url = ../spring-security-oauth2-authorization-server-redis.git
+	branch = next

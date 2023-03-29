@@ -42,6 +42,7 @@
         <module>spring-boot-starter-wechat-work</module>
         <module>spring-boot-starter-weibo</module>
         <module>spring-boot-starter-redis</module>
+        <module>spring-security-oauth2-authorization-server-redis</module>
     </modules>
 
     <licenses>
