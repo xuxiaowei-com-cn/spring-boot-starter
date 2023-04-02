@@ -279,8 +279,8 @@ cd ..
 git fetch "origin" next:next
 git fetch "origin" main:main
 cd spring-boot-starter-alipay-miniprogram
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -289,8 +289,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-alipay-oplatform
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -299,8 +299,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-dingtalk
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -309,8 +309,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-feishu-webpage
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -319,8 +319,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-gitee
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -329,8 +329,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-github
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -339,8 +339,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-gitlab
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -349,8 +349,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-qq-connect
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -359,8 +359,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-qq-miniprogram
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -369,8 +369,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-wechat-miniprogram
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -379,8 +379,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-wechat-offiaccount
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -389,8 +389,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-wechat-oplatform
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -399,8 +399,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-wechat-work
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -409,8 +409,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-weibo
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -419,8 +419,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-idempotent
-git fetch "gitee" next:next
-git fetch "gitee" main:main
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
 git.exe push --all --progress "jihulab"
@@ -429,7 +429,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-boot-starter-redis
-git.exe fetch -v --progress "origin"
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "origin"
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
@@ -439,7 +440,8 @@ git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
 cd spring-security-oauth2-authorization-server-redis
-git.exe fetch -v --progress "origin"
+git fetch "origin" next:next
+git fetch "origin" main:main
 git.exe push --all --progress "origin"
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
@@ -448,7 +450,6 @@ git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
 cd ..
-git.exe fetch -v --progress "origin"
 git.exe push --all --progress "origin"
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
