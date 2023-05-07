@@ -81,4 +81,4 @@ jobs:
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
         with:
-          working-directory: 'spring-boot-starter-oauth2'
+          checkout_path: 'spring-boot-starter-oauth2'
