@@ -41,6 +41,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Clone submodules
+        run: |
+          git submodule init
+          git submodule update --recursive --remote --depth=1 --recommend-shallow
+
       - name: Set up JDK ${{ matrix.java-version }}
         uses: actions/setup-java@v3
         with:
