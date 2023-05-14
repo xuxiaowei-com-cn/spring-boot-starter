@@ -11,20 +11,20 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    name: Build
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         java-version: [ 8, 11, 17 ]
+        os: [ "ubuntu-latest" ]
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Clone submodules
-        run: |
-          git submodule init
-          git submodule update --recursive --remote --depth=1 --recommend-shallow
+      # 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
 
       - name: Set up JDK ${{ matrix.java-version }}
         uses: actions/setup-java@v3
@@ -42,6 +42,7 @@ jobs:
           cd spring-boot-starter-oauth2
           pwd
           python merge.py
+          ls spring-boot-starter-oauth2/src/main/java/org/springframework/security/oauth2/server/authorization/http
 
       - name: Build with Maven
         run: |
