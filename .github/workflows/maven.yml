@@ -42,7 +42,7 @@ jobs:
           cd spring-boot-starter-oauth2
           pwd
           python merge.py
-          ls spring-boot-starter-oauth2/src/main/java/org/springframework/security/oauth2/server/authorization/http
+          ls src/main/java/org/springframework/security/oauth2/server/authorization/http
 
       - name: Build with Maven
         run: |
