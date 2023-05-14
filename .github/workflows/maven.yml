@@ -11,27 +11,28 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    name: Build
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         java-version: [ 17 ]
+        os: [ "ubuntu-latest" ]
 
     steps:
-      - uses: actions/checkout@v3
+      # 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
 
-      - name: Clone submodules
-        run: |
-          git submodule init
-          git submodule update --recursive --remote --depth=1 --recommend-shallow
-
+      # 设置JDK版本
       - name: Set up JDK ${{ matrix.java-version }}
         uses: actions/setup-java@v3
         with:
           java-version: ${{ matrix.java-version }}
           distribution: 'temurin'
-          cache: maven
+
 
       - name: Set up Python
         uses: actions/setup-python@v3
