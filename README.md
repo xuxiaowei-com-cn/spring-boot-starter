@@ -124,6 +124,20 @@ git submodule foreach git checkout main
 git submodule foreach git checkout next
 ```
 
+## 将 origin 远程 URL 修改为 github 远程 URL
+
+```shell
+git remote set-url origin $(git remote get-url github)
+```
+
+## 将所有子模块的 origin 远程 URL 修改为 github 远程 URL
+
+```shell
+# Windows 需要使用 git bash
+
+git submodule foreach 'git remote set-url origin $(git remote get-url github)'
+```
+
 ## 批量添加远端仓库地址
 
 <details>
@@ -135,7 +149,7 @@ git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter.gi
 git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter.git
 git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter.git
 
-# Windows 需要使用 git bash 
+# Windows 需要使用 git bash
 
 git submodule foreach 'git remote add gitee https://gitee.com/xuxiaowei-com-cn/$(basename $path).git'
 git submodule foreach 'git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/$(basename $path).git'
