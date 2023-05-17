@@ -34,10 +34,10 @@ main:
     - GPG_FILE=`find / -name xuxiaowei_0x97A36125_SECRET`
     - echo $GPG_FILE
     - gpg --import $GPG_FILE
-    - sed -i "s#</servers>#<server><id>ossrh</id><username>$ossrh_user</username><password>$ossrh_pass</password></server>&#" settings.xml
     - git --version
     - pwd
     - cd spring-boot-starter-oauth2
+    - sed -i "s#</servers>#<server><id>ossrh</id><username>$ossrh_user</username><password>$ossrh_pass</password></server>&#" settings.xml
     - pwd
     - NAME=`mvn help:evaluate -Dexpression=project.name -q -DforceStdout -s settings.xml`
     - VERSION=`mvn help:evaluate -Dexpression=project.version -q -DforceStdout -s settings.xml`
