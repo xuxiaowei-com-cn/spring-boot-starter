@@ -128,6 +128,10 @@
 - next
     - 支持 JDK 17
 
+## [使用文档](https://www.yuque.com/xuxiaowei-com-cn/xuxiaowei-cloud/third-party-login)
+
+## 其他 [Spring Boot Starter 项目](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter)
+
 ## 流水线
 
 - 当前流水线：[极狐GitLab](https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter/-/pipelines)
