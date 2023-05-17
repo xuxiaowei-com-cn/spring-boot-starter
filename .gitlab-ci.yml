@@ -1,8 +1,8 @@
 stages:
-  - next-pre
+  - main-pre
   - next
 
-next-pre:
+main-pre:
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
   stage: next-pre
@@ -15,12 +15,12 @@ next-pre:
   artifacts:
     paths:
       - spring-boot-starter-oauth2/src/main/java
-  rules:
-    - if: $CI_COMMIT_TAG
+
+
 
 next:
   needs:
-    - job: next-pre
+    - job: main-pre
       artifacts: true
   stage: next
   image: maven:3.6.3-openjdk-17
@@ -34,16 +34,14 @@ next:
     - GPG_FILE=`find / -name xuxiaowei_0x97A36125_SECRET`
     - echo $GPG_FILE
     - gpg --import $GPG_FILE
-    - SETTINGS_FILE=`find / -name settings.xml`
-    - echo $SETTINGS_FILE
-    - sed -i "s#</servers>#<server><id>ossrh</id><username>$ossrh_user</username><password>$ossrh_pass</password></server>&#" $SETTINGS_FILE
     - git --version
     - pwd
     - cd spring-boot-starter-oauth2
+    - sed -i "s#</servers>#<server><id>ossrh</id><username>$ossrh_user</username><password>$ossrh_pass</password></server>&#" settings.xml
     - pwd
-    - NAME=`mvn help:evaluate -Dexpression=project.name -q -DforceStdout`
-    - VERSION=`mvn help:evaluate -Dexpression=project.version -q -DforceStdout`
-    - PACKAGING=`mvn help:evaluate -Dexpression=project.packaging -q -DforceStdout`
+    - NAME=`mvn help:evaluate -Dexpression=project.name -q -DforceStdout -s settings.xml`
+    - VERSION=`mvn help:evaluate -Dexpression=project.version -q -DforceStdout -s settings.xml`
+    - PACKAGING=`mvn help:evaluate -Dexpression=project.packaging -q -DforceStdout -s settings.xml`
     - echo 名称：$NAME
     - echo 版本：$VERSION
     - echo 包：$PACKAGING
@@ -51,9 +49,7 @@ next:
     - echo 当前分支：$CI_COMMIT_BRANCH
     - echo 主分支：$CI_DEFAULT_BRANCH
     - echo 项目路径：$CI_PROJECT_DIR
-    - mvn clean -U package source:jar javadoc:jar deploy -Pgpg -DskipTests && echo 发布完成
+    - mvn clean -U package source:jar javadoc:jar deploy -Pgpg -DskipTests -s settings.xml && echo 发布完成
   artifacts:
     paths:
       - spring-boot-starter-oauth2/target/spring-boot-starter-oauth2-*
-  rules:
-    - if: $CI_COMMIT_TAG
