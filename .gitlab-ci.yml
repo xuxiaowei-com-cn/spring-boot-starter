@@ -1,8 +1,8 @@
 stages:
-  - main-pre
+  - next-pre
   - next
 
-main-pre:
+next-pre:
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
   stage: next-pre
@@ -20,7 +20,7 @@ main-pre:
 
 next:
   needs:
-    - job: main-pre
+    - job: next-pre
       artifacts: true
   stage: next
   image: maven:3.6.3-openjdk-17
