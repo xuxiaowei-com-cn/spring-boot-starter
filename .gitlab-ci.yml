@@ -15,8 +15,8 @@ main-pre:
   artifacts:
     paths:
       - spring-boot-starter-oauth2/src/main/java
-  rules:
-    - if: $CI_COMMIT_TAG
+
+
 
 main:
   needs:
@@ -55,5 +55,3 @@ main:
   artifacts:
     paths:
       - spring-boot-starter-oauth2/target/spring-boot-starter-oauth2-*
-  rules:
-    - if: $CI_COMMIT_TAG
