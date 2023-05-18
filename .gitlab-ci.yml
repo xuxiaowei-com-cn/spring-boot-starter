@@ -1,6 +1,7 @@
 stages:
   - main-pre
   - main
+  - sync
 
 main-pre:
   variables:
@@ -53,3 +54,6 @@ main:
   artifacts:
     paths:
       - spring-boot-starter-oauth2/target/spring-boot-starter-oauth2-*
+
+include:
+  - /sync.yml
