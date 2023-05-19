@@ -138,6 +138,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          submodules: 'recursive'
           # 获取所有的代码历史记录，包括分支和标签
           fetch-depth: 0
 
