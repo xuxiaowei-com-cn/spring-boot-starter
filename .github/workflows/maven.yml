@@ -40,10 +40,6 @@ jobs:
           path: |
             ~/.m2/repository
             ~/.npm
-            $GITHUB_WORKSPACE/passport-ui/node/
-            $GITHUB_WORKSPACE/passport-ui/node_modules/
-            $GITHUB_WORKSPACE/ui/node/
-            $GITHUB_WORKSPACE/ui/node_modules/
           key: ${{ matrix.os }}-${{ hashFiles('pom.xml', '**/pom.xml', '**/**/pom.xml', '**/package.json') }}
           restore-keys: |
             ${{ matrix.os }}-
