@@ -40,10 +40,6 @@ jobs:
           path: |
             ~/.m2/repository
             ~/.npm
-            $GITHUB_WORKSPACE/passport-ui/node/
-            $GITHUB_WORKSPACE/passport-ui/node_modules/
-            $GITHUB_WORKSPACE/ui/node/
-            $GITHUB_WORKSPACE/ui/node_modules/
           key: ${{ matrix.os }}-${{ hashFiles('pom.xml', '**/pom.xml', '**/**/pom.xml', '**/package.json') }}
           restore-keys: |
             ${{ matrix.os }}-
@@ -100,6 +96,12 @@ jobs:
         os: [ "ubuntu-latest" ]
 
     steps:
+      # 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          # 获取所有的代码历史记录，包括分支和标签
+          fetch-depth: 0
 
       - name: Dependabot metadata
         id: metadata
@@ -121,6 +123,25 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 将 next 分支代码同步到 极狐GitLab
+      - name: Sync JihuLab
+        run: |
+          git config --global user.email "xuxiaowei@xuxiaowei.com.cn"
+          git config --global user.name "徐晓伟"
+          # 切换
+          git checkout next
+          # 拉取
+          git pull origin next
+          # 查看当前分支
+          echo https://jihulab.com/$GITHUB_REPOSITORY.git
+          # 添加远端 极狐GitLab
+          git remote add jihulab https://xuxiaowei-com-cn:${{secrets.JIHULAB_PRIVATE_TOKEN}}@jihulab.com/$GITHUB_REPOSITORY.git
+          # 拉取
+          git pull --progress -v --no-rebase jihulab next
+          # 推动当前分支
+          git push --progress jihulab next:next
+
+
   sync:
     name: Sync
     # 需要所有 build 完成后，才运行
@@ -138,6 +159,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          submodules: 'recursive'
           # 获取所有的代码历史记录，包括分支和标签
           fetch-depth: 0
 
