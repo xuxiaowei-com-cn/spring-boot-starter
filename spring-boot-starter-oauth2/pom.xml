@@ -42,12 +42,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
-        <guava.version>31.1-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <!-- https://mvnrepository.com/artifact/com.aliyun/dingtalk -->
-        <dingtalk.version>2.0.16</dingtalk.version>
+        <dingtalk.version>2.0.18</dingtalk.version>
         <!-- https://github.com/alipay/alipay-sdk-java-all -->
         <!-- https://mvnrepository.com/artifact/com.alipay.sdk/alipay-sdk-java -->
-        <alipay-sdk-java.version>4.35.139.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.35.150.ALL</alipay-sdk-java.version>
 
         <!-- OAuth 2.1 依赖 -->
         <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-oauth2-authorization-server -->
