@@ -1,68 +1,68 @@
 [submodule "spring-boot-starter-wechat-miniprogram"]
 	path = spring-boot-starter-wechat-miniprogram
 	url = ../spring-boot-starter-wechat-miniprogram.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-wechat-offiaccount"]
 	path = spring-boot-starter-wechat-offiaccount
 	url = ../spring-boot-starter-wechat-offiaccount.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-wechat-oplatform"]
 	path = spring-boot-starter-wechat-oplatform
 	url = ../spring-boot-starter-wechat-oplatform.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-gitee"]
 	path = spring-boot-starter-gitee
 	url = ../spring-boot-starter-gitee.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-idempotent"]
 	path = spring-boot-starter-idempotent
 	url = ../spring-boot-starter-idempotent.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-qq-connect"]
 	path = spring-boot-starter-qq-connect
 	url = ../spring-boot-starter-qq-connect.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-qq-miniprogram"]
 	path = spring-boot-starter-qq-miniprogram
 	url = ../spring-boot-starter-qq-miniprogram.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-dingtalk"]
 	path = spring-boot-starter-dingtalk
 	url = ../spring-boot-starter-dingtalk.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-gitlab"]
 	path = spring-boot-starter-gitlab
 	url = ../spring-boot-starter-gitlab.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-wechat-work"]
 	path = spring-boot-starter-wechat-work
 	url = ../spring-boot-starter-wechat-work.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-weibo"]
 	path = spring-boot-starter-weibo
 	url = ../spring-boot-starter-weibo.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-github"]
 	path = spring-boot-starter-github
 	url = ../spring-boot-starter-github.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-alipay-oplatform"]
 	path = spring-boot-starter-alipay-oplatform
 	url = ../spring-boot-starter-alipay-oplatform.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-alipay-miniprogram"]
 	path = spring-boot-starter-alipay-miniprogram
 	url = ../spring-boot-starter-alipay-miniprogram.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-redis"]
 	path = spring-boot-starter-redis
 	url = ../spring-boot-starter-redis.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-boot-starter-feishu-webpage"]
 	path = spring-boot-starter-feishu-webpage
 	url = ../spring-boot-starter-feishu-webpage.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
 [submodule "spring-security-oauth2-authorization-server-redis"]
 	path = spring-security-oauth2-authorization-server-redis
 	url = ../spring-security-oauth2-authorization-server-redis.git
-	branch = main
+	branch = 0.1.0-SNAPSHOT
