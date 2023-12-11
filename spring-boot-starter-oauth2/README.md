@@ -132,14 +132,6 @@
 
 ## 其他 [Spring Boot Starter 项目](https://gitee.com/xuxiaowei-com-cn/spring-boot-starter)
 
-## 流水线
-
-- 当前流水线：[极狐GitLab](https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter/-/pipelines)
-    - 国内版 GitLab，开源项目：不限制流水线使用时长
-- 历史流水线：
-    - [GitLab](https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter/-/pipelines)
-    - [GitCode](https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter/-/pipelines)
-
 ## 发布
 
 - [快照版](https://s01.oss.sonatype.org/content/repositories/snapshots/cn/com/xuxiaowei/boot/spring-boot-starter-oauth2)

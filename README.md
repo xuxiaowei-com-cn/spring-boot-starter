@@ -48,14 +48,6 @@
 - next
     - 支持 JDK 17
 
-## 流水线
-
-- 当前流水线：[极狐GitLab](https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter/-/pipelines)
-    - 国内版 GitLab，开源项目：不限制流水线使用时长
-- 历史流水线：
-    - [GitLab](https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter/-/pipelines)
-    - [GitCode](https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter/-/pipelines)
-
 ## 子模块 submodule
 
 ### 为何使用Git子模块？
@@ -78,8 +70,7 @@
        时无用户唯一标识，需要使用`access_token`来获取用户唯一标识
     5. 微信等应用的客户唯一标识使用的是`appid`，码云等应用使用的是`client_id`
     6. 有些厂商获取`access_token`时需要`redirect_uri`，有些厂商不需要
-4. 考虑到使用者可能会使用 [GitLab](https://gitlab.com)、[极狐](https://jihulab.com) 或自建 `GitLab`，针对于 `GitLab`
-   授权，需要自定义域名
+4. 考虑到使用者可能会使用 [GitLab](https://gitlab.com) 或自建 `GitLab`，针对于 `GitLab` 授权，需要自定义域名
 5. 每种授权使用独立的`jar`包，使用者上手方便，学习成本低，容易排查问题（宁愿开发者自己麻烦，不想提高使用者的成本）
 6. 拓展 OAuth2.1 的授权的项目维护虽然复杂了，但是像这种第三方授权流程，一旦做完了，万年不变（除了更新一下 OAuth 2.1 的依赖而已）
 7. 考虑新增组件 [spring-boot-starter-oauth2](spring-boot-starter-oauth2)，将 OAuth 2.1 组件打包成一个 jar 包，方便引用
@@ -152,7 +143,7 @@ git submodule foreach 'git remote set-url origin $(git remote get-url github)'
 <summary>点击展开</summary>
 git remote add gitee https://gitee.com/xuxiaowei-com-cn/spring-boot-starter.git
 git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/spring-boot-starter.git
-git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/spring-boot-starter.git
+git remote add framagit https://framagit.org/xuxiaowei-com-cn/spring-boot-starter.git
 git remote add github https://github.com/xuxiaowei-com-cn/spring-boot-starter.git
 git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/spring-boot-starter.git
 git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-starter.git
@@ -161,7 +152,7 @@ git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/spring-boot-start
 
 git submodule foreach 'git remote add gitee https://gitee.com/xuxiaowei-com-cn/$(basename $path).git'
 git submodule foreach 'git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/$(basename $path).git'
-git submodule foreach 'git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/$(basename $path).git'
+git submodule foreach 'git remote add framagit https://framagit.org/xuxiaowei-com-cn/$(basename $path).git'
 git submodule foreach 'git remote add github https://github.com/xuxiaowei-com-cn/$(basename $path).git'
 git submodule foreach 'git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/$(basename $path).git'
 git submodule foreach 'git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/$(basename $path).git'
@@ -178,7 +169,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -188,7 +179,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -198,7 +189,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -208,7 +199,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -218,7 +209,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -228,7 +219,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -238,7 +229,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -248,7 +239,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -258,7 +249,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -268,7 +259,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -278,7 +269,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -288,7 +279,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -298,7 +289,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -308,7 +299,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -318,7 +309,7 @@ git fetch "origin" next:next
 git fetch "origin" main:main
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -329,7 +320,7 @@ git fetch "origin" main:main
 git.exe push --all --progress "origin"
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -340,7 +331,7 @@ git fetch "origin" main:main
 git.exe push --all --progress "origin"
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
@@ -348,7 +339,7 @@ cd ..
 git.exe push --all --progress "origin"
 git.exe push --all --progress "gitee"
 git.exe push --all --progress "gitlab"
-git.exe push --all --progress "jihulab"
+git.exe push --all --progress "framagit"
 git.exe push --all --progress "github"
 git.exe push --all --progress "gitcode"
 git.exe push --all --progress "gitlink"
