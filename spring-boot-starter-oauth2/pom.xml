@@ -44,7 +44,7 @@
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <guava.version>33.0.0-jre</guava.version>
         <!-- https://mvnrepository.com/artifact/com.aliyun/dingtalk -->
-        <dingtalk.version>2.0.83</dingtalk.version>
+        <dingtalk.version>2.0.84</dingtalk.version>
         <!-- https://github.com/alipay/alipay-sdk-java-all -->
         <!-- https://mvnrepository.com/artifact/com.alipay.sdk/alipay-sdk-java -->
         <alipay-sdk-java.version>4.38.200.ALL</alipay-sdk-java.version>
